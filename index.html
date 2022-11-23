@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경복궁 별빛야행</title>
+
+    <!-- 오픈그래프 -->
+    <meta property="og:title" content="경복궁 별빛야행">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="경복궁 별빛야행 예약 및 안내">
+    <meta property="og:image" content="img/opengragh.jpg">
+
+    <!-- 파비콘 -->
+    <link href="img/favicon.ico" rel="shortcut icon">
+
+    <!-- font -->
+    <link href="css/font.css" rel="stylesheet">
+
+
+    <!-- css -->
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="index.html">
+                        <img src="img/logo.png" alt="경복궁 별빛야행 로고">
+                    </a></h1>
+
+                <nav>
+                    <ul class="gnb clearfix">
+                        <li><a href="#day">아침산책</a></li>
+                        <li><a href="#night">별빛야행</a></li>
+                        <li><a href="#youtube">영상</a></li>
+                        <li><a href="#map">지도</a></li>
+                        <li><a href="#cs">고객센터</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mb">
+                    <img src="img/main_mb.png">
+                </div>
+            </div>
+
+            <div class="mb_wrap">
+                <div class="mb_gnb">
+                    <div class="mb_menu">
+                        <img src="img/logo.png" alt="공복궁 별빛야행 로고">
+                        <div class="mb_close">닫기</div>
+                    </div>
+
+                    <ul class="mb_list">
+                        <li><a href="#day">아침산책</a></li>
+                        <li><a href="#night">별빛야행</a></li>
+                        <li><a href="#youtube">영상</a></li>
+                        <li><a href="#map">지도</a></li>
+                        <li><a href="#cs">고객센터</a>
+                            <ul class="mb_cs">
+                                <li><a href="sub/locate.html">오시는 길</a></li>
+                                <li><a href="sub/reser.html">예약 확인</a></li>
+                                <li><a href="sub/qna.html">자주 하는 질문</a></li>
+                                <li><a href="sub/cs.html">고객의 소리</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <section id="mv">
+                <div class="inner_100">
+                    <video src="img/main/mv_video.mp4" autoplay muted loop></video>
+
+                    <div class="notice_bg">
+                        <div class="swiper mv_notice">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">영화, 드라마, 동영상 촬영 및 책자 등의 게재를 위한 목적으로 촬영을 하고자 할 때 관련 서류를 구비하여 촬영일
+                                    60일 전부터 5일 전까지 촬영허가 신청을 한 후 허가를 받으시길 바랍니다.</li>
+
+                                <li class="swiper-slide">매주 화요일은 휴궁일(休宮日)입니다.</li>
+                            </ul>
+                        </div><!-- swiper -->
+                    </div><!-- notice_bg -->
+                </div><!-- inner -->
+            </section>
+
+            <section id="day">
+                <div class="inner_s">
+                    <h2 class="title">경복궁 아침산책</h2>
+
+                    <div class="day_desc">
+                        <img src="img/main/day_1.png" alt="수문장 교대의식 현장 사진">
+
+                        <div class="day_text">
+                            <h3 class="desc_title">수문장 교대의식</h3>
+
+                            <p class="desc">
+                                &nbsp;&nbsp;조선시대 수문장은 경복궁의 정문인 광화문, 사대문인 흥인지문, 숭례문 등 도성과 궁궐의 문을 지키는 책임자였습니다.<br>
+                                &nbsp;&nbsp;수문장 교대의식 : 10시, 14시 / 1일 2회 / 소요시간 20분<br>
+                                &nbsp;&nbsp;광화문 파수의식 : 11시, 13시 / 1일 2회 / 소요시간 10분<br>
+                                &nbsp;&nbsp;수문군 공개 훈련(협생문 밖) : 9시 35분(15분간) / 13시 35분(15분간)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="day_desc">
+                        <div class="day_text">
+                            <h3 class="desc_title right">첩종</h3>
+
+                            <p class="desc">
+                                &nbsp;&nbsp; 조선시대 수문장은 경복궁의 정문인 광화문, 사대문인 흥인지문, 숭례문 등 도성과 궁궐의 문을 지키는 책임자였습니다.<br>
+                                &nbsp;&nbsp;그 중에서도 첩종은 궁궐 호위군 사열의식입니다.<br>
+                                1년중 10월에서만 볼 수 있는 특별한 의식이랍니다.
+                            </p>
+                        </div>
+                        <img src="img/main/day_2.png" alt="첩종 현장 사진">
+                    </div>
+
+                    <div class="day_desc">
+                        <img src="img/main/day_3.png" alt="경복궁 생과방 현장 사진">
+
+                        <div class="day_text">
+                            <h3 class="desc_title">경복궁 생과방</h3>
+
+                            <p class="desc">
+                                &nbsp;&nbsp;경복궁의 소주방 전각에 위치한 ‘생과방’은 ‘국왕과 왕비’의 후식과 별식을 준비하던곳 입니다.<br>
+                                &nbsp;&nbsp;경복궁 생과방 프로그램은 조선왕조실록의 내용을 토대로 실제 임금이 드셨던 궁중병과와 궁중약차를 오늘날에도 즐길 수 있도록
+                                구성되어있습니다.<br>
+                                &nbsp;&nbsp;생과방 내부에 위치한 호궤소에서 궁중병과와 궁중약차를 시식, 체험할 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="day_desc">
+                        <div class="day_text">
+                            <h3 class="desc_title right">고궁 청소년 문화학교</h3>
+
+                            <p class="desc">
+                                &nbsp;&nbsp;초등학생들이 고궁의 역사를 바로 알고 궁중 문화를 직접 체험해 보는 청소년 대상 궁궐 프로그램입니다.<br>
+                                &nbsp;&nbsp;궁궐의 역사와 사건, 인물, 궁중 문화 등을 들려주는 이론 강의와 현장답사, 체험학습 등으로 구성되어있습니다.<br>
+                                &nbsp;&nbsp;참여대상 : 초등학교 3~4학년, 5~6학년<br>
+                                &nbsp;&nbsp;참여인원 : 조별 40명, 총 400명
+                            </p>
+                        </div>
+                        <img src="img/main/day_4.png" alt="첩종 현장 사진">
+                    </div>
+                </div><!-- inner -->
+            </section>
+
+            <div class="cloud1"></div>
+
+            <div class="cloud2"></div>
+
+            <div class="cloud3"></div>
+
+            <div class="cloud4"></div>
+
+            <section id="night">
+                <div class="inner_100">
+                    <h2 class="title_wh">경복궁 별빛야행</h2>
+
+                    <div class="center">
+                        <img src="img/main/night_main.png" alt="별빛야행 컨셉 아트">
+
+                        <img class="moon_bg" src="img/main/night_moon_bg.png" alt="달빛">
+                        <img class="moon" src="img/main/night_moon.png" alt="달">
+
+                        <ul class="clearfix moon_light">
+                            <li>
+                                <a href="https://ticket.11st.co.kr/Product/Detail?id=266723&prdNo=4802410695" target="_blank">예약하기</a>
+                            </li>
+                            <li>
+                                안내보기
+                            </li>
+                        </ul>
+
+                        <div class="wave"></div>
+                    </div>
+                </div>
+
+                <div class="star1">
+                    <img src="img/main/night_star.png">
+                </div>
+                <div class="star2">
+                    <img src="img/main/night_star.png">
+                </div>
+                <div class="star3">
+                    <img src="img/main/night_star.png">
+                </div>
+                <div class="star4">
+                    <img src="img/main/night_star.png">
+                </div>
+            </section>
+
+            <section id="youtube">
+                <div class="inner_100">
+                    <h2 class="title_wh">별빛야행 YouTube</h2>
+
+                    <div class="swiper scroll_slide">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img class="play" src="img/main/btn_play.png" alt="재생버튼">
+                                <img class="thumb" src="img/main/thumbnail_1.jpg" alt="종묘 이안제">
+                            </li>
+                            <li class="swiper-slide">
+                                <img class="play" src="img/main/btn_play.png" alt="재생버튼">
+                                <img class="thumb" src="img/main/thumbnail_2.jpg" alt="수문장을 보다">
+                            </li>
+                            <li class="swiper-slide">
+                                <img class="play" src="img/main/btn_play.png" alt="재생버튼">
+                                <img class="thumb" src="img/main/thumbnail_3.jpg" alt="별빛야행">
+                            </li>
+                            <li class="swiper-slide">
+                                <img class="play" src="img/main/btn_play.png" alt="재생버튼">
+                                <img class="thumb" src="img/main/thumbnail_4.png" alt="달빛기행">
+                            </li>
+                        </ul>
+
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div><!-- inner -->
+            </section>
+
+            <section id="map">
+                <div class="inner_s">
+                    <h2 class="title_wh">내부 지도</h2>
+
+                    <img src="img/main/map.png" alt="경복궁 내부지도">
+                </div><!-- inner -->
+            </section>
+
+            <section id="cs">
+                <div class="inner_s">
+                    <h2 class="title_wh">고객센터</h2>
+
+                    <ul>
+                        <li><a href="sub/locate.html">오시는 길</a></li>
+                        <li><a href="sub/reserv.html">예약 확인</a></li>
+                        <li><a href="sub/qna.html">자주 하는 질문</a></li>
+                        <li><a href="sub/cs.html">고객의 소리</a></li>
+                    </ul>
+                </div><!-- inner -->
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="inner_s">
+                <div class="footer_logo">
+                    <img src="img/footer_logo.png">
+                    <img src="img/footer_seoul.png">
+                </div>
+
+                <ul class="footer_line">
+                    <li><a href="sub/person.html">개인정보처리방침</a></li>
+                    <li><a href="sub/idea.html">저작권정책</a></li>
+                    <li><a href="sub/privit.html">개인정보침해신고</a></li>
+                </ul>
+
+                <ul class="footer_sns">
+                    <li><a href="https://www.youtube.com" target="_blank"><img src="img/sns_youtube.png"
+                                alt="유튜브 링크"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="img/sns_insta.png"
+                                alt="인스타그램 링크"></a></li>
+                    <li><a href="https://twitter.com/?lang=ko" target="_blank"><img src="img/sns_twitter.png"
+                                alt="트위터 링크"></a></li>
+                </ul>
+
+                <address>우)03045 서울특별시 종로구 사직로 161<br>
+                    전화번호(02) 3700-3900 팩스(02) 3700-3909
+
+                </address>
+                <p class="copy">COPYRIGHT 2014 BY GYEONGBOKGUNG. ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+
+        <div class="star_bg"></div>
+
+        <div class="modal_yotube1">
+            <div class="modal_close1">닫기</div>
+
+            <iframe src="https://www.youtube.com/embed/P8Azfk7W7Zk" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="modal_yotube2">
+            <div class="modal_close1">닫기</div>
+
+            <iframe src="https://www.youtube.com/embed/jjziTrgs0kE" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="modal_yotube3">
+            <div class="modal_close1">닫기</div>
+
+            <iframe src="https://www.youtube.com/embed/FJj-4e7pqJo" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="modal_yotube4">
+            <div class="modal_close1">닫기</div>
+
+            <iframe src="https://www.youtube.com/embed/uji_Y2_jeDk" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="modal_info">
+            <div class="modal_close1">닫기</div>
+
+            <h2 class="desc_title">예약시 안내사항</h2>
+
+            <p class="desc">관람일 당일 예매하신 건은 취소, 변경, 환불 불가합니다.<br>
+                배송이 시작된 티켓의 경우 티켓이 티켓11번가 고객센터로 취소마감시간 이전까지 반송 되어야 취소 가능하며 취소수수료는 도착일 기준으로 부과됩니다.<br>
+                결제수단을 복수결제로 하신 경우에는 인터넷으로 부분 취소가 불가하오니, 고객센터로 문의 주시기 바랍니다.<br>
+                <span>일부 공연의 경우 예매/취소 마감시간이 다를 수 있습니다.</span>
+            </p>
+
+            <p class="desc">
+                예매 당일 밤 12시 이전 취소시 취소수수료가 없습니다. (취소마감 기한내)
+                예매 후 7일 이내라도 취소시점이 관람일로부터 10일 이내라면 그에 해당하는 취소수수료가 부과됩니다.
+                예매수수료는 예매 당일 밤 12시 이전까지 환불되며, 그 이후 기간에는 환불되지 않습니다.
+                배송 및 반송처리 된 티켓의 배송료는 환불되지 않습니다.
+            </p>
+        </div>
+    </div><!-- wrap -->
+</body>
+
+</html>
